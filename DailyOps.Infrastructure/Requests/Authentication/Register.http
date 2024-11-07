@@ -1,0 +1,12 @@
+﻿POST  http://localhost:5272/auth/register
+Content-Type: application/json
+
+{
+    "employeeId": "123",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "jdoe@localhost",
+    "password": "123456",
+    "confirmPassword": "123456",
+    "phoneNumber": "1234567890"
+}
